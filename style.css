@@ -26,9 +26,35 @@ li {
     justify-content: center;
     gap: 32px;
     background-color: brown;
+    flex-wrap: wrap;
+}
+.left-text {
+    width: 500px;
 }
 
 .big-image {
-    height: 300px;
+    flex: 0 1 auto;
+    width: 500px;
+    height: auto;
+}
+
+.information {
+
+}
+.information-header {
+    text-align: center;
+}
+.information-row {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+.small-image {
+    height: 200px;
     width: auto;
+}
+.information-text {
+    width: 200px;
+    text-align: center;
 }
