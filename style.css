@@ -21,3 +21,14 @@ ul {
 li {
     text-decoration: none;
 }
+.introduction {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    background-color: brown;
+}
+
+.big-image {
+    height: 300px;
+    width: auto;
+}
