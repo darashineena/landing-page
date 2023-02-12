@@ -39,7 +39,7 @@ li {
 }
 
 .information {
-
+    background-color: rgb(136, 136, 236);
 }
 .information-header {
     text-align: center;
@@ -57,4 +57,20 @@ li {
 .information-text {
     width: 200px;
     text-align: center;
+}
+.quote-div {
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    width: 800px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+.atribution {
+    text-align: end;
 }
