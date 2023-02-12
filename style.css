@@ -21,6 +21,7 @@ ul {
 li {
     text-decoration: none;
 }
+
 .introduction {
     display: flex;
     justify-content: center;
@@ -58,6 +59,7 @@ li {
     width: 200px;
     text-align: center;
 }
+
 .quote-div {
     display: flex;
     justify-content: center;
@@ -73,4 +75,16 @@ li {
 }
 .atribution {
     text-align: end;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+}
+.sign-up-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 50px 0;
 }
